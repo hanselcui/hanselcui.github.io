@@ -6,49 +6,50 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Your Name / Site Title"
+locale                   : "zh-CN"
+title                    : "Han Cui"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Han Cui"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://hanselcui.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "hanselcui/hanselcui.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "avatar.png"
+  name             : "Han Cui (崔涵)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Postgraduate student at Harbin Institute of Technology"
+  location         : "Harbin, China"
+  employer         : "Harbin Institute of Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "hancui0930@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=Y0v4I2gAAAAJ&hl=zh-CN"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/hanselcui"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -150,27 +151,28 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - .asset-cache
+  # - .asset-cache
   - .bundle
   - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
+  # - .sass-cache
+  # - assets
+  # - CHANGELOG
+  # - Capfile
+  # - Gemfile
+  # - Gruntfile.js
+  # - LICENSE
+  # - README
+  # - Rakefile
+  # - assets/js/_main.js
+  # - assets/js/plugins
+  # - assets/js/vendor
+  # - config
+  # - gulpfile.js
+  # - log
+  # - node_modules
+  # - package.json
+  # - tmp
+  # - vendor
 keep_files:
   - .git
   - .svn
@@ -272,9 +274,9 @@ defaults:
 
 
 # Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# sass:
+#   sass_dir: _sass
+#   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -291,6 +293,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -298,7 +301,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # Archives
 #  Type
@@ -335,3 +337,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# remote_theme: "mmistakes/minimal-mistakes"
+# minimal_mistakes_skin: "dirt"
+
