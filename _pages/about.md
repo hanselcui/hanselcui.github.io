@@ -2,16 +2,13 @@
 permalink: /
 title: "Hi, there~ 👋"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-
-
-
 I am a second-year Master’s student in computer science at [SCIR](http://ir.hit.edu.cn/) in [Harbin Institute of Technology](http://www.hit.edu.cn/).
 
-My primary research interests lies in the area of in Natural Language Processing. Recently, I mainly focused on how to reason by the language models in an explicit and quantifiable manner, eg. explanation graph generation([EG3P](https://aclanthology.org/2023.findings-acl.629/)), reasoning on heterogeneous data([HProPro](https://arxiv.org/abs/2402.10812)).
+My primary research interests lies in the area of in Natural Language Processing. Recently, I mainly focused on how to reason by the language models in an explicit and quantifiable manner and boosting the reasoning ability of LLM from the reasoning process, eg. explanation graph generation([EG3P](https://aclanthology.org/2023.findings-acl.629/)), reasoning on heterogeneous data([HProPro](https://arxiv.org/abs/2402.10812)).
 
 Previously, I graduated from Harbin Institute of Technology, Computer Science, in 2022.
 
@@ -24,14 +21,14 @@ In June-Sep, 2023, I interned in PCG, Tencent as an algorithm engineer.
 ---
 
 📻 News
-====
+=======
 
 * 🎉 Our [Paper](https://arxiv.org/pdf/2402.10812) is accepted by ACL-2024, Main Conference.
 
 ---
 
 📑 Publictions:
-============
+===============
 
 **HProPro: Exploring Hybrid Question Answering via Program-based Prompting**, **[ACL 2024]**
 
@@ -43,9 +40,8 @@ In June-Sep, 2023, I interned in PCG, Tencent as an algorithm engineer.
 - Han Cui, Shangzhan Li, Yu Zhang, Qi Shi [[Paper](https://arxiv.org/abs/2306.00652), [Code](https://github.com/cccccent/EG3P)]
 - We propose a pre-training framework that improves the reliability and accuracy of the model's explicit reasoning with synthetic data.
 
-
 ⏳ Experience
-============
+=============
 
 ### Education
 
@@ -64,18 +60,17 @@ In June-Sep, 2023, I interned in PCG, Tencent as an algorithm engineer.
   - June 2021 – July 2021 · Harbin, Heilongjiang, China
 
 🔧 Skills
-============
+==========
 
-* Coding: Python / Javascipt / C (a little) / Go (a little)
-* Framework: Pytorch / Transformers / Numpy / Fairseq / vllm
-* Language:  Chinese / English(Read & Write)
+* Coding: Python / Javascipt / C / Go (a little)
+* Framework: Pytorch / Transformers / vllm / Numpy / Fairseq
+* Language:  Chinese / English (Read & Write)
 * Web/UI: LayUI / Wechat Mini App / Vue.js
 
-
 🏆 Awards
-============
+=========
 
-**I given an Award for:**
+**I was given an Award for:**
 
 - Outstanding Student (HIT, Oct 2023)
 - Graduate Scholarship with special distinction (HIT, Sep 2023)
