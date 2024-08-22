@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, there~ 👋"
+title: "Han Cui"
 author_profile: true
 redirect_from:
   - /about/
@@ -12,7 +12,7 @@ My primary research interests lies in the area of in Natural Language Processing
 
 Previously, I graduated from Harbin Institute of Technology, Computer Science, in 2022.
 
-In June-Sep, 2023, I interned in PCG, Tencent as an algorithm engineer.
+In June-Sep, 2023, I interned in PCG, Tencent as an algorithm engineer. Now I'm visiting at Westlake NLP Group (leaded by Prof. Yue Zhang).
 
 **Update** :
 
@@ -54,10 +54,12 @@ In June-Sep, 2023, I interned in PCG, Tencent as an algorithm engineer.
 
 ### **Internship**
 
+- **Westlake NLP Group, Westlake University** (Reaserch Intern)
+  - March 2024 - Now **·** Hangzhou, Zhejiang, China
 - **Foundation Research Center, PCG, Tencent** (Work Intern)
   - June 2023 – September 2023 **·** Shenzhen, Guangdong, China
 - **Research Center for Social Computing and Information Retrieval (SCIR), HIT** (Research Intern)
-  - June 2021 – July 2021 · Harbin, Heilongjiang, China
+  - June 2021 – July 2021 **·** Harbin, Heilongjiang, China
 
 🔧 Skills
 ==========
